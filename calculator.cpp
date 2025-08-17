@@ -1,8 +1,4 @@
 /**
- * @file calculator.cpp
- * @brief A simple calculator program that performs basic arithmetic operations
- * @author [Your Name]
- * @date [Current Date]
  * 
  * This program takes two integers as input and performs the following operations:
  * - Addition (+)
