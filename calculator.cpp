@@ -1,4 +1,4 @@
-/**
+/*
  * 
  * This program takes two integers as input and performs the following operations:
  * - Addition (+)
