@@ -31,7 +31,7 @@ int printEquilateralTriangle(int n) {
         }
         cout << endl;
     }
-    return 0; 
+    return 0;
 }
 
 int ReverseTriangle(int n) {
