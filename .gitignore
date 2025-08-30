@@ -1,3 +1,5 @@
 *.exe
 .vscode
 .gitignore
+trying-nvim.cpp
+
