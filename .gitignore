@@ -2,4 +2,5 @@
 .vscode
 .gitignore
 trying-nvim.cpp
+trying-vim.cpp
 
