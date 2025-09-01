@@ -3,7 +3,6 @@ using namespace std;
 
 int main() {
  int arr[5];
- cout << *arr; 
+ cout << *arr;
+ return 0;
 }
-
-
