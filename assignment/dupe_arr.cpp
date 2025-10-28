@@ -24,7 +24,8 @@ int main() {
   
   // Loop through array to read n elements from user input
   for(int i = 0; i < n; i++) {
-    cin >> arr[i] << " ";
+    cin >> arr[i]; 
+    cout << " ";
   }
 
   int new_arr[n];  // Array to store unique elements
