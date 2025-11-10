@@ -54,7 +54,7 @@ void transposeMatrix(int matrix[20][20], int result[20][20], int rows, int cols)
 
 //Function to multiply 2 matrices
 bool multMatrix(int a[20][20], int b[20][20], int result[20][20], int r1, int c1, int r2, int c2) {
-    if (c1 != r2) return false; // check dimensions
+    if (c1 != r2) return false;
     for (int i = 0; i < r1; i++) {
         for (int j = 0; j < c2; j++) {
             result[i][j] = 0;
@@ -79,7 +79,7 @@ int main() {
     cin >> r2 >> c2;
     inputMatrix(matrix2, r2, c2);
 
-    cout << "\nChoose operation:\n1. Addition\n2. Subtraction\n3. Multiplication\n4. Transpose of Matrix\n";
+    cout << "\nChoose operation:\n1. Addition\n2. Multiplication\n3. Transpose of Matrix\n";
     cin >> choice;
 
     switch (choice) {
