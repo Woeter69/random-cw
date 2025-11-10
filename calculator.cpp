@@ -1,15 +1,15 @@
 /*
- * 
- * This program takes two integers as input and performs the following operations:
- * - Addition (+)
- * - Subtraction (-)
- * - Multiplication (*)
- * - Division (/)
- * - Modulo (%)
- * 
- * The results are displayed in order of operation.
- */
+Program: Calculator
+Description: Performs basic arithmetic operations on two integers.
 
+Sample I/O:
+  Enter two integers: 10 5
+  Addition: 10 + 5 = 15
+  Subtraction: 10 - 5 = 5
+  Multiplication: 10 * 5 = 50
+  Division: 10 / 5 = 2
+  Modulo: 10 % 5 = 0
+*/
 #include <iostream>
 using namespace std;
 
