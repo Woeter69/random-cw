@@ -15,13 +15,14 @@ using namespace std;
  * 
  */
 double fractionSum(int n) {
-  double result = 0;  // Accumulator for the sum
-  
-  // Loop from 1 to n to calculate each term in the series
-  for (int i = 1; i <= n; i++) {
-    result += 1.0 / pow(i,i);  // Add 1/(i^i) to the running sum
-  }
-  return result;  // Return the total sum
+    double result = 0;
+
+    for (int i = 1; i <= n; i++) {
+        double term = 1.0 / pow(i, i);
+        result += (i % 2 ? term : -term);
+    }
+
+    return result;
 }
 
 /**
@@ -43,7 +44,7 @@ double factorialSum(int n) {
   // Loop from 1 to n to calculate each term in the series
   // Each iteration computes factorial incrementally and adds 1/factorial to result
   for (int i = 1; i <= n; i++) {
-    factorial = factorial * i;  // Multiply factorial by i to get i! (ERROR: missing semicolon and declaration)
+    factorial = factorial * i;  
     result += 1.0 / factorial;  // Add 1/(i!) to the running sum
   }
   return result;  // Return the total sum
