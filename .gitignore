@@ -4,4 +4,5 @@
 .gitignore
 trying-nvim.cpp
 trying-vim.cpp
+*.btw
 
