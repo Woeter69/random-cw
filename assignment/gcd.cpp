@@ -32,6 +32,6 @@ int main() {
     b = r;  // Replace b with remainder
   }
 
-  // Display the GCD (may be incorrect due to bug)
+  // Display the GCD
   cout << "Greatest common divisor: " << a;
 }
