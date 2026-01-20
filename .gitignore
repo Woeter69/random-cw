@@ -6,4 +6,5 @@ trying-nvim.cpp
 trying-vim.cpp
 *.btw
 practice/
+.clang-format
 
