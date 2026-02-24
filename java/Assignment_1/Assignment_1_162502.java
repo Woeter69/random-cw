@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class CombinedProgram {
+public class Assignment_1_162502 {
     static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
