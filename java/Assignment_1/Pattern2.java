@@ -5,8 +5,8 @@ class Pattern2 {
     Scanner scanner = new Scanner(System.in);
     System.out.print("Enter number of rows: ");
     int rows = scanner.nextInt();
-    for (int i = rows; i > 0; i--) {
-      for (int j = 1; j <= i; j++) {
+    for (int i = 1; i <= rows; i++) {
+      for (int j = rows; j >= i; j--) {
         System.out.print("* ");
       }
       System.out.println();
