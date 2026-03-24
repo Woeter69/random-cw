@@ -7,4 +7,5 @@ trying-vim.cpp
 *.btw
 practice/
 .clang-format
+*.class
 
