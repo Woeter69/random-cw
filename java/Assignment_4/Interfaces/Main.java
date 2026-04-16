@@ -134,6 +134,7 @@ public class Main {
             switch (choice) {
                 case 1:
                     System.out.println("1. Circle\n2. Rectangle\n3. Triangle");
+                    System.out.print("Enter choice: ");
                     int sChoice = scanner.nextInt();
                     if (sChoice == 1) {
                         System.out.print("Enter radius: ");
@@ -175,6 +176,7 @@ public class Main {
                     break;
                 case 4:
                     System.out.println("1. Dog\n2. Cat");
+                    System.out.print("Enter choice: ");
                     int aChoice = scanner.nextInt();
                     Animal animal;
                     if (aChoice == 1) {
